@@ -12,7 +12,10 @@ from PIL import Image
 
 class ResidualConvBlock(nn.Module):
     def __init__(
-        self, in_channels: int, out_channels: int, is_res: bool = False
+        self, 
+        in_channels: int, 
+        out_channels: int, 
+        is_res: bool = False
     ) -> None:
         super().__init__()
 
